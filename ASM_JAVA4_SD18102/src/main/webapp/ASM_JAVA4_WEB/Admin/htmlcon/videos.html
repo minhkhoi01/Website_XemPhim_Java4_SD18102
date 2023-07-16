@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="../fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="../css/owl.carousel.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>Quản lý</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Open Sans";
+      background-position: center center;
+     
+      background-repeat: no-repeat;
+      color: #ecf0f1;
+      line-height: 1.618em;
+
+    }
+
+    .wrapper {
+      max-width: 50rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .tabs {
+      position: relative;
+      margin: 3rem 0;
+      background: #1abc9c;
+      height: 540px;
+      width: 900px;
+    }
+
+    .tabs::before,
+    .tabs::after {
+      content: "";
+      display: table;
+    }
+
+    .tabs::after {
+      clear: both;
+    }
+
+    .tab {
+      float: left;
+    }
+
+    .tab-switch {
+      display: none;
+    }
+
+    .tab-label {
+      position: relative;
+      display: block;
+      line-height: 2.75em;
+      height: 3em;
+      padding: 0 1.618em;
+      background: #1abc9c;
+      border-right: 0.125rem solid #16a085;
+      color: #fff;
+      cursor: pointer;
+      top: 0;
+      transition: all 0.25s;
+    }
+
+    .tab-label:hover {
+      top: -0.25rem;
+      transition: top 0.25s;
+    }
+
+    .tab-content {
+      height: 500px;
+      width: 900px;
+      position: absolute;
+      z-index: 1;
+      top: 2.75em;
+      left: 0;
+      padding: 1.618rem;
+      background: #fff;
+      color: #2c3e50;
+      border-bottom: 0.25rem solid #bdc3c7;
+      opacity: 0;
+      transition: all 0.35s;
+    }
+
+    .tab-switch:checked+.tab-label {
+      background: #fff;
+      color: #2c3e50;
+      border-bottom: 0;
+      border-right: 0.125rem solid #fff;
+      transition: all 0.35s;
+      z-index: 1;
+      top: -0.0625rem;
+    }
+
+    .tab-switch:checked+label+.tab-content {
+      z-index: 2;
+      opacity: 1;
+      transition: all 0.35s;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <div class="hero" style="background-image: url('../images/tap5.jpg'); ">
+    
+    
+  </div>
+  <header class="site-navbar" role="banner">
+
+    <div class="container">
+      <div class="row align-items-center" style="background-color: #2c3e50;">
+
+        <div class="col-1 col-xl-2">
+          <h1><a href="index.html" class="text-white mb-0">ADMIN </a></h1>
+        </div>
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li class="active"><a href="index.html"><span>Home</span></a></li>
+              <!-- <li class="has-children">
+                  <a href="about.html"><span>Dropdown</span></a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="#">Menu One</a></li>
+                    <li><a href="#">Menu Two</a></li>
+                    <li><a href="#">Menu Three</a></li>
+                    <li class="has-children">
+                      <a href="#">Dropdown</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                        <li><a href="#">Menu Four</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li> -->
+              <li><a href="videos.html"><span>Videos</span></a></li>
+              <li><a href="Usser.html"><span>Users</span></a></li>
+              <li><a href="reports.html"><span>Reports</span></a></li>
+
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
+            class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+      </div>
+
+    </div>
+    </div>
+
+    <article class="row">
+      <div class="header-body container">
+        <div class="wrapper">
+          <div class="tabs">
+            <div class="tab">
+              <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+              <label for="tab-1" class="tab-label">Video Edition</label>
+              <div class="tab-content">
+                <!-- <video width="850" height="440" controls>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ylQvMPYiwHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          
+                          </video> -->
+                          <div class="row">
+                            <div class="col-lg-6">
+                                    <img width="400" height="300" src="../images/titan.jpg"
+                            
+                            ></img> 
+                            </div>
+                     
+                          <div class="form col-lg-6">
+                            <form>
+          
+                              <div class="form-group">
+                                <label class="form-control-label">Youtube Id?</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                <label class="form-control-label">Video Title?</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                <label class="form-control-label">View Count?</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+          
+                                <input type="checkbox">
+                                <label class="form-control-label">Active</label>
+                                <input type="checkbox">
+                                <label class="form-control-label">Inactive</label>
+                              </div>
+                              <div class="form-group">
+                                <label class="form-control-label">Description?</label>
+                                <input type="text" class="form-control" height="70px">
+                              </div>
+          
+          
+                              <div class="col-lg-12 loginbttm">
+                                <div class="col-lg-6 login-btm login-text">
+                                  <!-- Error Message -->
+                                </div>
+                                <div class="login-btm login-button">
+                                  <button type="submit" class="btn btn-outline-success">Create</button>
+                                  <button type="submit" class="btn btn-outline-success">Update</button>
+                                  <button type="submit" class="btn btn-outline-success">Delete</button>
+                                  <button type="submit" class="btn btn-outline-success">Reset</button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+               
+                </div>
+
+
+              </div>
+            </div>
+            <div class="tab">
+              <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+              <label for="tab-2" class="tab-label">Video list</label>
+              <div class="tab-content">
+
+                <div class="row">
+                  <div class="col-md-12" style="width: 850px; height: 400px;">
+
+                    <div class="table-wrap">
+                      <table class="table">
+                        <thead class="thead-primary">
+                          <tr>
+                            <th>Youtube id</th>
+                            <th>Video title</th>
+                            <th>View count</th>
+                            <th>Status</th>
+                            <th> </th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+
+                            <td>Ytet_bPircu</td>
+                            <td>Attack on titan</td>
+                            <td>300</td>
+                            <td>Active</td>
+                            <td><a href="#" class="btn btn-primary">Edit</a></td>
+                          </tr>
+                          <tr>
+
+                            <td>Ytet_bPircu</td>
+                            <td>Attack on titan</td>
+                            <td>300</td>
+                            <td>Active</td>
+                            <td><a href="#" class="btn btn-primary">Edit</a></td>
+                          </tr>
+                          <tr>
+
+                            <td>Ytet_bPircu</td>
+                            <td>Attack on titan</td>
+                            <td>300</td>
+                            <td>Active</td>
+                            <td><a href="#" class="btn btn-primary">Edit</a></td>
+                          </tr>
+                          <tr>
+
+                            <td>Ytet_bPircu</td>
+                            <td>Attack on titan</td>
+                            <td>300</td>
+                            <td>Active</td>
+                            <td><a href="#" class="btn btn-primary">Edit</a></td>
+                          </tr>
+                          <tr>
+
+                            <td>Ytet_bPircu</td>
+                            <td>Attack on titan</td>
+                            <td>300</td>
+                            <td>Active</td>
+                            <td><a href="#" class="btn btn-primary">Edit</a></td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <table>
+                <tr>
+
+                </tr>
+              </table>
+            </div>
+
+          </div>
+          <p>Example line outside of tab box</p>
+        </div>
+      </div>
+    </article>
+
+
+  </header>
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
