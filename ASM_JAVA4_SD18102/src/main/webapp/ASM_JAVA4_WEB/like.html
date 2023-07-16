@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="poly.css">
+  <link rel="stylesheet" href="https://ionic.io/ionicons">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Like</title>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-nav"> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark" style="background-color: #000000;">
+        <a class="navbar-brand"><span style="color: pink;">AnimeGalaxy</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Trang chủ<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="like.html">Thích</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Tài khoản
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/Account/login.html">Đăng nhập</a>
+                <a class="dropdown-item" href="/Account//quenMK.html">Quên mật khẩu</a>
+                <a class="dropdown-item" href="/Account/singup.html">Đăng ký </a>
+                <a class="dropdown-item" href="#">Đăng xuất</a>
+                <a class="dropdown-item" href="Account/doiPass.html">Đổi mật khẩu</a>
+                <a class="dropdown-item" href="/Account/taikhoan.html">Tài khoản</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+               Ngôn ngữ
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/Account/login.html">Tiếng việt</a>
+                <a class="dropdown-item" href="/Account//quenMK.html">Tiếng anh</a>
+               
+              </div>
+            </li>
+           
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Tìm kiếm tên phim">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Tìm kiếm</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="card-header" style="background-color: #000022;">
+
+      <h1 style="font-size: 70px; text-align: center; color: pink;"> <img src="images/hkhkh.png" width="150px"
+          height="120px" alt=""> AnimeGalaxy </h1>
+        
+      <hr style="background-color: azure; font-weight: bold;">
+
+    </div>
+    <div class="card-body" style="background-color: #000022;">
+      <h1 style="color: white;">Anime yêu thích <img src="images/icons8_Heart_40px.png" alt=""></h1>
+      <select
+      style="font-size: 30px; background-color: #000022; color: white;">
+      <option value="Anime">Sắp xếp <i class="bi bi-arrow-down-up"></i></option>
+      <option value="Hành động">Tăng dần</option>
+      <option value="Phiêu lưu">Giảm dần</option>
+     
+    </select>
+      <div class="row">
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/titan.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="noidung.html"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Attack On Titan SS1</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+            Share
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Chia sẽ video đển bạn bè</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="">Mời nhập địa chỉ Email?</label> <br>
+                            <input class="form-control" type="email" name="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/thanhguom.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Thanh gươm diệt quỷ</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+            Share
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">SEND VIDEO TO YOUR FRIEND</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="">Your Friend's Email?</label> <br>
+                            <input class="form-control" type="email" name="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/onpuchman.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">One puch man</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+            Share
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">SEND VIDEO TO YOUR FRIEND</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="">Your Friend's Email?</label> <br>
+                            <input class="form-control" type="email" name="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/onepiece.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Vua Hải TẶC</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+            Share
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">SEND VIDEO TO YOUR FRIEND</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="">Your Friend's Email?</label> <br>
+                            <input class="form-control" type="email" name="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/kurroko.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Tuyển thủ vô hình</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+            Share
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">SEND VIDEO TO YOUR FRIEND</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="">Your Friend's Email?</label> <br>
+                            <input class="form-control" type="email" name="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/robot.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Đại chiến Robot</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+            Share
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">SEND VIDEO TO YOUR FRIEND</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="">Your Friend's Email?</label> <br>
+                            <input class="form-control" type="email" name="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/huyetnguc.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Đại chiến Robot</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><a href=""><button class="btn btn-danger">share</button></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/deku.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Học viện anh hùng SS6</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><a href=""><button class="btn btn-danger">share</button></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/tho.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">KungFu Thỏt</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><a href=""><button class="btn btn-danger">share</button></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/panda.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">KungFu PanDa</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><a href=""><button class="btn btn-danger">share</button></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/naruto.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Naruto sức mạnh vĩ thú</div>
+          <p>trọn bộ full HD 500/500 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><a href=""><button class="btn btn-danger">share</button></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+        <div class="s1">
+          <figure class="snip1205">
+            <img src="images/bognda.jpg" alt="sample42" />
+            <i class="ion-ios-play-outline"></i>
+            <a href="#"></a>
+          </figure>
+          <div>Lượt xem:3233 | Like: 3000</div>
+          <div class="card-title" style="bottom: 5px;">Đại chiến Robot</div>
+          <p>trọn bộ full HD 24/24 tập <i class="share-social-outline"></i></ion-icon> </p>
+          <i><a href=""><button class="btn btn-danger">share</button></a></i>
+          <i><a href=""><button class="btn" style="background-color:aqua;">Unlike</button></a></i>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="footer">
+
+      <footer class="footer-07">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+              <h2 class="footer-heading"><a href="#" class="logo" style="color: #a3de83;">AnimeGalaxy</a></h2>
+              <p class="menu">
+                <a href="#">Home</a>
+                <a href="#">Agent</a>
+                <a href="#">About</a>
+                <a href="#">Listing</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+              </p>
+              <ul class="ftco-footer-social">
+             <img src="images/hangphim.jpg" style="height: 30px;" alt="">
+              <img src="images/hangphim (2).jpg" style="height: 30px; width: 140px;" alt="">
+               <img src="images/hangphim (4).jpg" style="height: 30px;" alt="">
+                
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-12 text-center">
+              <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Khoinmpc02929 | Assignment java 4 wbesite phim animegalaxy <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    
+    
+    </div>
+  </div>
+  </div>
+  <style>
+    @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+    
+  </style>
+  <script src="">
+    /* Demo purposes only */
+    $(".hover").mouseleave(
+      function () {
+        $(this).removeClass("hover");
+      }
+    );
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
