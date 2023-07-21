@@ -13,7 +13,7 @@ public class IndexServlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.getWriter().println("<h1>Index</h1>");
-//		super.doGet(req, resp);
+		req.getRequestDispatcher("/ASM_JAVA4_WEB/index.jsp").forward(req, resp);
+		
 	}
 }

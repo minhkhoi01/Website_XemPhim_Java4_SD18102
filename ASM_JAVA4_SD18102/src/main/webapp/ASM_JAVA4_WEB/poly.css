@@ -519,6 +519,7 @@ footer {
 
     figure.snip1205 img {
       max-width: 100%;
+      height: 200px;
       vertical-align: top;
     }
 
@@ -540,10 +541,10 @@ footer {
     }
 
     figure.snip1205 a {
-      left: 0;
+      left: 5px;
       right: 0;
-      top: 0;
-      bottom: 0;
+      top: 2px;
+      bottom: 2px;
       position: absolute;
     }
 
@@ -624,9 +625,33 @@ footer {
       margin: 10px;
       position: relative;
       transition: all 0.2s ease-in-out;
-
+      /* display: flex; */
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
     }
 
+    /* .s1 {
+     
+    } */
+    
+    .s1 .card-title {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+      padding: 5px;
+    }
+    
+    .s1 p {
+     
+      margin-left: 10px;
+      padding: 10px;
+    }
+    
+    .s1 i {
+      margin-top: 10px;
+      
+    }
     .s1:hover{
       border-color: red;
       color: aqua;

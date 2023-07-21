@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,10 +32,10 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/kimoytsu.jpg');">
+		<div class="container-login100" style="background-image: url('images/pikachu.jpg');">
 			<div class="wrap-login100 p-t-30 p-b-50">
 				<span class="login100-form-title p-b-41">
-					Đăng nhập <br>
+					Đăng Ký <br>
 					AnimeGalaxy
 				</span>
 				<form class="login100-form validate-form p-b-33 p-t-5">
@@ -42,20 +44,26 @@
 						<input class="input100" type="text" name="username" placeholder="Tên tài khoản">
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Enter Fullname">
+						<input class="input100" type="text" name="username" placeholder="Họ và tên">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Enter email">
+						<input class="input100" type="text" name="username" placeholder="Email">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
 						<input class="input100" type="password" name="pass" placeholder="Mật khẩu">
 						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
 					</div>
+				
 					<div class="form-group">
 						<input type="checkbox"> Ghi nhớ tài khoản?
 					 </div>
-					<div class="form-group">
-					   <i><a href=""> Forgot password</a></i>
-					</div>
 					<div class="container-login100-form-btn m-t-32">
 						<button class="login100-form-btn">
-							Đăng nhập
+							Đăng ký
 						</button>
 					</div>
 

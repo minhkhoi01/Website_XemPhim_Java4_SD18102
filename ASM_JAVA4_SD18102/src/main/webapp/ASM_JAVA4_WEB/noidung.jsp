@@ -1,69 +1,21 @@
-<!doctype html>
-<html lang="en">
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="poly.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="poly.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Insert title here</title>
 </head>
-
 <body>
-
-    <div class="card">
-        <div class="card-nav"> 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark" style="background-color: #000000;">
-              <a class="navbar-brand"><span style="color: pink;">AnimeGalaxy</span></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-      
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Trang chủ<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="like.html">Thích</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                      Tài khoản
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/Account/login.html">Đăng nhập</a>
-                        <a class="dropdown-item" href="/Account//quenMK.html">Quên mật khẩu</a>
-                        <a class="dropdown-item" href="/Account/singup.html">Đăng ký </a>
-                        <a class="dropdown-item" href="#">Đăng xuất</a>
-                        <a class="dropdown-item" href="Account/doiPass.html">Đổi mật khẩu</a>
-                        <a class="dropdown-item" href="/Account/taikhoan.html">Tài khoản</a>
-                      </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                     Ngôn ngữ
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="/Account/login.html">Tiếng việt</a>
-                      <a class="dropdown-item" href="/Account//quenMK.html">Tiếng anh</a>
-                     
-                    </div>
-                  </li>
-                 
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Tìm kiếm tên phim">
-                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Tìm kiếm</button>
-                </form>
-              </div>
-            </nav>
-          </div>
+<div class="card">
+    <!--    menu  -->
+    <%@include file="layout/nav.jsp" %>
+      <!--  /menu -->
           <div class="card-header" style="background-color: #000022;">
       
             <h1 style="font-size: 70px; text-align: center; color: pink;"> <img src="images/hkhkh.png" width="150px"
@@ -276,49 +228,7 @@
                 </div>
             </figure>
 
-            <!-- 
-                h2///////////////////////////////////////
-                /////////////////////////////////////// -->
-            <figure class="snip0025">
-                <img class="image" src="images/tap4.jpg" alt="sample45" />
-                <div>
-                    <h2>Đại chiến Robot</h2>
-                    <i class="ion-ios-play-outline"></i>
-                    <div class="curl"></div>
-                    <a href="#"></a>
-                </div>
-            </figure>
-            <figure class="snip0025">
-                <img class="image" src="images/onpuchman.jpg" alt="sample45" />
-                <div>
-                    <h2>Thập đại anh hùng</h2>
-                    <i class="ion-ios-play-outline"></i>
-                    <div class="curl"></div>
-                    <a href="#"></a>
-                </div>
-            </figure>
-            <figure class="snip0025">
-                <img class="image" src="images/kurroko.jpg" alt="sample45" />
-                <div>
-                    <h2>Biệt đội thép</h2>
-                    <i class="ion-ios-play-outline"></i>
-                    <div class="curl"></div>
-                    <a href="#"></a>
-                </div>
-            </figure>
-            <figure class="snip0025">
-                <img class="image" src="images/tap5.jpg" alt="sample45" />
-                <div>
-                    <h2>Biệt đội thép</h2>
-                    <i class="ion-ios-play-outline"></i>
-                    <div class="curl"></div>
-                    <a href="#"></a>
-                </div>
-            </figure>
-
-            <!-- 
-                h2///////////////////////////////////////
-                /////////////////////////////////////// -->
+           
 
         </div>
         
@@ -327,44 +237,10 @@
 
 
     </div>
-    <div class="footer">
-
-        <footer class="footer-07">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-12 text-center">
-                <h2 class="footer-heading"><a href="#" class="logo" style="color: #a3de83;">AnimeGalaxy</a></h2>
-                <p class="menu">
-                  <a href="#">Home</a>
-                  <a href="#">Agent</a>
-                  <a href="#">About</a>
-                  <a href="#">Listing</a>
-                  <a href="#">Blog</a>
-                  <a href="#">Contact</a>
-                </p>
-                <ul class="ftco-footer-social">
-               <img src="images/hangphim.jpg" style="height: 30px;" alt="">
-                <img src="images/hangphim (2).jpg" style="height: 30px; width: 140px;" alt="">
-                 <img src="images/hangphim (4).jpg" style="height: 30px;" alt="">
-                  
-                </ul>
-              </div>
-            </div>
-            <div class="row mt-5">
-              <div class="col-md-12 text-center">
-                <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Khoinmpc02929 | Assignment java 4 wbesite phim animegalaxy <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-              </div>
-            </div>
-          </div>
-        </footer>
-        
-      
-      
-      </div>  </div>
-    </div>
-    <style>
+ <!--    footer -->
+    <%@include file="layout/footer.jsp" %>
+   <!--  /footer -->
+ <style>
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
@@ -383,5 +259,4 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
